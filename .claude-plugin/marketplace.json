@@ -45,6 +45,13 @@
       "version": "1.0.0",
       "description": "Safe dependency upgrades for Gradle, Maven, npm, and more. Includes breaking change detection, security scanning, and test verification.",
       "category": "development"
+    },
+    {
+      "name": "claude-md-generator",
+      "source": "./plugins/claude-md-generator",
+      "version": "1.0.0",
+      "description": "Generates an intelligent CLAUDE.md file by analyzing codebase structure, tech stack, and fetching current best practices from the internet.",
+      "category": "productivity"
     }
   ]
 }
