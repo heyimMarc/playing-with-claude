@@ -10,5 +10,36 @@
     "homepage": "https://github.com/mnuetzel/playing-with-claude",
     "keywords": ["productivity", "agents", "orchestration", "tdd", "clean-code", "feature-development"]
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "feature-orchestrator",
+      "path": "plugins/feature-orchestrator",
+      "version": "1.0.0",
+      "description": "Intelligent feature development with multi-agent orchestration. Claude automatically selects agents and models based on complexity analysis."
+    },
+    {
+      "name": "bug-fixer",
+      "path": "plugins/bug-fixer",
+      "version": "1.0.0",
+      "description": "Intelligent bug hunting and fixing workflow with root cause analysis, reproduction, and regression test generation."
+    },
+    {
+      "name": "refactor-pro",
+      "path": "plugins/refactor-pro",
+      "version": "1.0.0",
+      "description": "Safe code refactoring with architectural analysis, before/after comparisons, and automatic regression testing."
+    },
+    {
+      "name": "idea-lab",
+      "path": "plugins/idea-lab",
+      "version": "1.0.0",
+      "description": "Design research phase for exploring ideas before technical implementation. Includes web research, competitive analysis, and user story development."
+    },
+    {
+      "name": "upgrade-deps",
+      "path": "plugins/upgrade-deps",
+      "version": "1.0.0",
+      "description": "Safe dependency upgrades for Gradle, Maven, npm, and more. Includes breaking change detection, security scanning, and test verification."
+    }
+  ]
 }
