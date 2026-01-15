@@ -1,0 +1,11 @@
+{
+  "name": "bug-fixer",
+  "version": "1.0.0",
+  "description": "Intelligent bug hunting and fixing workflow with root cause analysis, reproduction, and regression test generation.",
+  "author": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "license": "MIT",
+  "keywords": ["bug", "debugging", "investigation", "hotfix", "regression"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "feature-orchestrator",
+  "version": "1.0.0",
+  "description": "Intelligent feature development with multi-agent orchestration. Claude automatically selects agents and models based on complexity analysis.",
+  "author": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "license": "MIT",
+  "keywords": ["feature", "orchestration", "agents", "tdd", "clean-architecture", "productivity"]
+}

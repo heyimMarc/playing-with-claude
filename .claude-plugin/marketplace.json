@@ -1,0 +1,14 @@
+{
+  "name": "mnuetzel-productivity",
+  "owner": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "metadata": {
+    "description": "Enterprise-grade Claude Code productivity suite with intelligent multi-agent orchestration for feature development, bug fixing, refactoring, idea exploration, and dependency management.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/mnuetzel/playing-with-claude",
+    "keywords": ["productivity", "agents", "orchestration", "tdd", "clean-code", "feature-development"]
+  },
+  "plugins": []
+}

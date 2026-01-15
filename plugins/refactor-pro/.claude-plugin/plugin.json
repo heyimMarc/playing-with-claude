@@ -1,0 +1,11 @@
+{
+  "name": "refactor-pro",
+  "version": "1.0.0",
+  "description": "Safe code refactoring with architectural analysis, before/after comparisons, and automatic regression testing.",
+  "author": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "license": "MIT",
+  "keywords": ["refactor", "clean-code", "architecture", "improvement", "solid"]
+}

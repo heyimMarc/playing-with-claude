@@ -1,0 +1,11 @@
+{
+  "name": "idea-lab",
+  "version": "1.0.0",
+  "description": "Design research phase for exploring ideas before technical implementation. Includes web research, competitive analysis, and user story development.",
+  "author": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "license": "MIT",
+  "keywords": ["idea", "research", "design", "product", "ux", "discovery"]
+}

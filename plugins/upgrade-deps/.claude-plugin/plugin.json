@@ -1,0 +1,11 @@
+{
+  "name": "upgrade-deps",
+  "version": "1.0.0",
+  "description": "Safe dependency upgrades for Gradle, Maven, npm, and more. Includes breaking change detection, security scanning, and test verification.",
+  "author": {
+    "name": "Marc Nützel",
+    "email": "me@marc-nuetzel.de"
+  },
+  "license": "MIT",
+  "keywords": ["dependencies", "upgrade", "gradle", "maven", "npm", "security", "breaking-changes"]
+}
