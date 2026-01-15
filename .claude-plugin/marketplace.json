@@ -13,33 +13,38 @@
   "plugins": [
     {
       "name": "feature-orchestrator",
-      "path": "plugins/feature-orchestrator",
+      "source": "./plugins/feature-orchestrator",
       "version": "1.0.0",
-      "description": "Intelligent feature development with multi-agent orchestration. Claude automatically selects agents and models based on complexity analysis."
+      "description": "Intelligent feature development with multi-agent orchestration. Claude automatically selects agents and models based on complexity analysis.",
+      "category": "development"
     },
     {
       "name": "bug-fixer",
-      "path": "plugins/bug-fixer",
+      "source": "./plugins/bug-fixer",
       "version": "1.0.0",
-      "description": "Intelligent bug hunting and fixing workflow with root cause analysis, reproduction, and regression test generation."
+      "description": "Intelligent bug hunting and fixing workflow with root cause analysis, reproduction, and regression test generation.",
+      "category": "development"
     },
     {
       "name": "refactor-pro",
-      "path": "plugins/refactor-pro",
+      "source": "./plugins/refactor-pro",
       "version": "1.0.0",
-      "description": "Safe code refactoring with architectural analysis, before/after comparisons, and automatic regression testing."
+      "description": "Safe code refactoring with architectural analysis, before/after comparisons, and automatic regression testing.",
+      "category": "development"
     },
     {
       "name": "idea-lab",
-      "path": "plugins/idea-lab",
+      "source": "./plugins/idea-lab",
       "version": "1.0.0",
-      "description": "Design research phase for exploring ideas before technical implementation. Includes web research, competitive analysis, and user story development."
+      "description": "Design research phase for exploring ideas before technical implementation. Includes web research, competitive analysis, and user story development.",
+      "category": "productivity"
     },
     {
       "name": "upgrade-deps",
-      "path": "plugins/upgrade-deps",
+      "source": "./plugins/upgrade-deps",
       "version": "1.0.0",
-      "description": "Safe dependency upgrades for Gradle, Maven, npm, and more. Includes breaking change detection, security scanning, and test verification."
+      "description": "Safe dependency upgrades for Gradle, Maven, npm, and more. Includes breaking change detection, security scanning, and test verification.",
+      "category": "development"
     }
   ]
 }
