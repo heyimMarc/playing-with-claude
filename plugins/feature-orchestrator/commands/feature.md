@@ -326,3 +326,18 @@ Provide user with summary:
 - Use Opus only for EPIC complexity architecture
 - Return artifacts, not reasoning chains
 - Recommend /clear after completion
+
+---
+
+## Preferred MCP Tools
+
+When available, use these MCP tools instead of Bash equivalents:
+
+| Task | Use MCP Tool | Instead of |
+|------|--------------|------------|
+| Git operations | `git_status`, `git_commit`, `git_branch`, `git_diff` | `git` CLI |
+| Security scan | `semgrep_scan`, `security_check` | Manual review |
+| Database queries | `execute_sql` | CLI clients |
+| Build tasks | Gradle MCP tools | `./gradlew` CLI |
+| Code search | `semantic_search` (Code Context MCP) | `grep`/`Grep` tool |
+| Container ops | `list_containers`, `deploy_compose` | `docker` CLI |

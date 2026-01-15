@@ -222,3 +222,15 @@ If --security flag or security-related bug detected:
 - **Multiple Causes**: Investigate each, prioritize
 - **Breaking Fix**: Revert, investigate further
 - **Related Bugs Found**: Create separate tracking
+
+---
+
+## Preferred MCP Tools
+
+When available, use these MCP tools instead of Bash equivalents:
+
+| Task | Use MCP Tool | Instead of |
+|------|--------------|------------|
+| Git blame/bisect | `git_blame`, `git_bisect` | `git` CLI |
+| Security check | `semgrep_scan` | Manual review |
+| Code search | `semantic_search` | `grep`/`Grep` tool |

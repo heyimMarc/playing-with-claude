@@ -242,3 +242,15 @@ Compare before vs after.
 3. **Incremental changes with verification**
 4. **Automatic rollback on failure**
 5. **Metrics comparison to verify improvement**
+
+---
+
+## Preferred MCP Tools
+
+When available, use these MCP tools instead of Bash equivalents:
+
+| Task | Use MCP Tool | Instead of |
+|------|--------------|------------|
+| Git checkpoint | `git_stash`, `git_commit` | `git` CLI |
+| Security scan | `semgrep_scan` | Manual review |
+| Code search | `semantic_search` | `grep`/`Grep` tool |

@@ -1,0 +1,5 @@
+{
+  "name": "shared-mcps",
+  "version": "1.0.0",
+  "description": "Shared MCP servers for development workflows: Git, Semgrep, Database, Maven, Gradle, Kubernetes, Docker, Code Search"
+}

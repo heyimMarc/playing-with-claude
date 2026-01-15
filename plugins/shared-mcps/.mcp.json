@@ -1,0 +1,48 @@
+{
+  "git": {
+    "command": "npx",
+    "args": ["-y", "@modelcontextprotocol/server-git"],
+    "env": {}
+  },
+  "semgrep": {
+    "command": "uvx",
+    "args": ["semgrep-mcp"],
+    "env": {}
+  },
+  "dbhub": {
+    "command": "npx",
+    "args": ["-y", "@bytebase/dbhub"],
+    "env": {
+      "DB_URL": "${DB_URL:-}"
+    }
+  },
+  "maven": {
+    "command": "npx",
+    "args": ["-y", "mcp-maven-deps"],
+    "env": {}
+  },
+  "gradle": {
+    "command": "npx",
+    "args": ["-y", "gradle-mcp-server"],
+    "env": {}
+  },
+  "kubernetes": {
+    "command": "npx",
+    "args": ["-y", "@kubernetes/mcp-server"],
+    "env": {}
+  },
+  "docker": {
+    "command": "uvx",
+    "args": ["docker-mcp"],
+    "env": {}
+  },
+  "code-context": {
+    "command": "npx",
+    "args": ["-y", "@zilliz/claude-context-mcp@latest"],
+    "env": {
+      "EMBEDDING_PROVIDER": "${EMBEDDING_PROVIDER:-openai}",
+      "OPENAI_API_KEY": "${OPENAI_API_KEY:-}",
+      "MILVUS_URI": "${MILVUS_URI:-}"
+    }
+  }
+}

@@ -52,6 +52,13 @@
       "version": "1.0.0",
       "description": "Generates an intelligent CLAUDE.md file by analyzing codebase structure, tech stack, and fetching current best practices from the internet.",
       "category": "productivity"
+    },
+    {
+      "name": "shared-mcps",
+      "source": "./plugins/shared-mcps",
+      "version": "1.0.0",
+      "description": "Shared MCP servers: Git, Semgrep, Database, Maven, Gradle, Kubernetes, Docker, Code Search",
+      "category": "infrastructure"
     }
   ]
 }

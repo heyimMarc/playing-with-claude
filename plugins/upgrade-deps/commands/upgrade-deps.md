@@ -316,3 +316,16 @@ npx npm-check-updates -u
 4. **Security prioritization** for CVE fixes
 5. **Automatic rollback** on test failure
 6. **Detailed reporting** for review
+
+---
+
+## Preferred MCP Tools
+
+When available, use these MCP tools instead of Bash equivalents:
+
+| Task | Use MCP Tool | Instead of |
+|------|--------------|------------|
+| Maven versions | Maven MCP `check_version` | Web search |
+| Gradle tasks | Gradle MCP tools | `./gradlew` CLI |
+| Git ops | `git_commit`, `git_stash` | `git` CLI |
+| DB migrations | `execute_sql` | CLI clients |

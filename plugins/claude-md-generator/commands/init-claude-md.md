@@ -962,3 +962,15 @@ Quick reference for discovering available tasks:
 - **Web search fails**: Continue with codebase analysis only
 - **Conflicting conventions**: Prioritize explicit config over inference
 - **Monorepo detected**: Generate overview with links to subproject docs
+
+---
+
+## Preferred MCP Tools
+
+When available, use these MCP tools instead of Bash equivalents:
+
+| Task | Use MCP Tool | Instead of |
+|------|--------------|------------|
+| Gradle tasks | Gradle MCP `list_tasks` | `./gradlew tasks` |
+| Code analysis | `semantic_search` | Manual exploration |
+| Docker detection | `list_containers` | `docker` CLI |
